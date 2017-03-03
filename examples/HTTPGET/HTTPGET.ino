@@ -25,7 +25,7 @@
 #define PASSWORD    "12345678"
 #define HOST_NAME   "www.baidu.com"
 #define HOST_PORT   (80)
-
+SoftwareSerial Serial1(3, 2); /* RX:D3, TX:D2 */
 ESP8266 wifi(Serial1);
 
 void setup(void)
